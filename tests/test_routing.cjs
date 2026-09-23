@@ -1,0 +1,16 @@
+const assert=require('node:assert/strict');
+const {route}=require('../graph.js');
+const a={x:0,y:100},b={x:600,y:100};
+const direct=route(a,b,[]);
+assert.equal(direct.path,'M220,160 L600,160');
+assert.equal(direct.points.length,2,'no obstacle must mean no detour');
+const blocked=route(a,b,[{x:300,y:100}]);
+assert.ok(blocked.path.includes('Q'),'local obstacle corners are rounded');
+assert.ok(blocked.points.length>2);
+assert.ok(blocked.points.every(p=>p.y>=84&&p.y<=236),'route stays near the actual obstruction');
+const distant=route(a,b,[{x:300,y:-3000}]);
+assert.equal(distant.path,direct.path,'distant nodes cannot change an edge');
+assert.equal(route(a,{x:50,y:130}).path,'','overlapping nodes have no misleading edge');
+const vertical=route({x:0,y:0},{x:0,y:500});
+assert.equal(vertical.path,'M110,120 L110,500');
+console.log('Routing checks passed: boundary anchors, direct lines, local detours, overlap and vertical layout.');

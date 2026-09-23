@@ -1,0 +1,30 @@
+__pycache__/
+*.py[cod]
+data/
+config.local.json
+.venv-mcp/
+.venv-analysis/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+*.dpapi
+*.pem
+*.key
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Restored from pinned upstream archives, not part of project source.
+/third_party/ghidra-mcp/
+/third_party/reverse-skill/
+
+# Downloaded challenge binaries and third-party solution documents.
+/datasets/reverse-challenges/archives/
+/datasets/reverse-challenges/challenges/
+/datasets/reverse-challenges/references/*/official-solution.pdf

@@ -1,0 +1,15 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "repository": "bethington/ghidra-mcp",
+      "revision": "016c60ad18bf59340169e8d6d087f718bdd9f6d2",
+      "archive_sha256": "3141bce336ae712fa95a2ecf1abb455762320051e38bfa50e20ba52d6b53c76f"
+    },
+    {
+      "repository": "zhaoxuya520/reverse-skill",
+      "revision": "7e2097fd90d25c2f976f6eba26d6c00aa88051df",
+      "archive_sha256": "22781d5558b6a2109c805a4bdbffd10be47e74eef5e8e01cf24c4fa2c89953eb"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "path": "archives/Flare-On10_Challenges.7z",
+    "url": "https://www.flare-on.com/files/Flare-On10_Challenges.7z",
+    "bytes": 43162065,
+    "sha256": "9822170cd2863374e6955728431d6a190b1bc1bcb60d07cb434f03178e237e5c"
+  },
+  {
+    "path": "references/01-x/official-solution.pdf",
+    "url": "https://services.google.com/fh/files/misc/1-x-flareon10.pdf",
+    "bytes": 781893,
+    "sha256": "b39d58a1e6be5e94e3ac66f8cee2b47692239f768c12ba13d83e24332e5f2f1a"
+  },
+  {
+    "path": "references/02-itsonfire/official-solution.pdf",
+    "url": "https://services.google.com/fh/files/misc/2-itsonfire-flareon10.pdf",
+    "bytes": 5306184,
+    "sha256": "b245b101d99209181f83fe5aec26fccb97092d7fac199348dbe513c333af9419"
+  },
+  {
+    "path": "references/03-mypassion/official-solution.pdf",
+    "url": "https://services.google.com/fh/files/misc/3-mypassion-flareon10.pdf",
+    "bytes": 1004904,
+    "sha256": "381d87c6a6f41b6d2a8259875c08b398b54afd89b8c86ebd8ae4fe7c49c924d2"
+  },
+  {
+    "path": "references/04-aimbot/official-solution.pdf",
+    "url": "https://services.google.com/fh/files/misc/4-aimbot-flareon10.pdf",
+    "bytes": 123310,
+    "sha256": "a76b326310ab28e155d66a2b1fdaf6cc0b6ced455a64c2f656258f3f08a10038"
+  },
+  {
+    "path": "references/05-where-am-i/official-solution.pdf",
+    "url": "https://services.google.com/fh/files/misc/5-where-am-i-flareon10.pdf",
+    "bytes": 8355461,
+    "sha256": "f30428496e63df69f218eb0c4c4dbb98a170ba817c0bbbe496ccdc4df0b3aa38"
+  },
+  {
+    "path": "references/12-hvm/official-solution.pdf",
+    "url": "https://services.google.com/fh/files/misc/12-hvm-flareon10.pdf",
+    "bytes": 643075,
+    "sha256": "e38108385f5a655aab3b749f04357c23a7451f0c5e4c970cd0dd2a2541c84e04"
+  }
+]

@@ -1,0 +1,130 @@
+{
+  "schema_version": 1,
+  "collected_on": "2026-09-22",
+  "source": "https://www.flare-on.com/",
+  "solution_index": "https://cloud.google.com/blog/topics/threat-intelligence/flareon10-challenge-solutions/",
+  "scope": "download_and_catalog_only",
+  "runtime_imported": false,
+  "difficulty_note": "Local suggested progression, not an official rating; challenge 3 is a significant jump.",
+  "challenges": [
+    {
+      "id": "01-x",
+      "title": "X",
+      "suggested_order": 1,
+      "difficulty": "入门",
+      "platform": ".NET / MonoGame",
+      "topics": [
+        "字符串定位",
+        "事件回调与口令判断"
+      ],
+      "archive": "challenges/01-x/X.7z",
+      "archive_password": "flare",
+      "source_member": "X.7z",
+      "solution": "references/01-x/official-solution.pdf",
+      "status": "collected_not_tested",
+      "executed": false,
+      "answer_source": "official_author_solution",
+      "locally_validated": false
+    },
+    {
+      "id": "02-itsonfire",
+      "title": "ItsOnFire",
+      "suggested_order": 2,
+      "difficulty": "初级",
+      "platform": "Android APK / Kotlin",
+      "topics": [
+        "Manifest 入口",
+        "资源引用",
+        "CRC32 与 AES"
+      ],
+      "archive": "challenges/02-itsonfire/ItsOnFire.7z",
+      "archive_password": "flare",
+      "source_member": "ItsOnFire.7z",
+      "solution": "references/02-itsonfire/official-solution.pdf",
+      "status": "collected_not_tested",
+      "executed": false,
+      "answer_source": "official_author_solution",
+      "locally_validated": false
+    },
+    {
+      "id": "03-mypassion",
+      "title": "Mypassion",
+      "suggested_order": 3,
+      "difficulty": "中高级",
+      "platform": "Windows 原生程序",
+      "topics": [
+        "多阶段输入约束",
+        "结构体恢复",
+        "嵌入代码与密码算法"
+      ],
+      "archive": "challenges/03-mypassion/mypassion.7z",
+      "archive_password": "flare",
+      "source_member": "mypassion.7z",
+      "solution": "references/03-mypassion/official-solution.pdf",
+      "status": "collected_not_tested",
+      "executed": false,
+      "answer_source": "official_author_solution",
+      "locally_validated": false
+    },
+    {
+      "id": "04-aimbot",
+      "title": "Aimbot",
+      "suggested_order": 4,
+      "difficulty": "高级",
+      "platform": "Windows EXE / DLL",
+      "topics": [
+        "反调试",
+        "环境依赖",
+        "多阶段载荷"
+      ],
+      "archive": "challenges/04-aimbot/aimbot.7z",
+      "archive_password": "flare",
+      "source_member": "aimbot.7z",
+      "solution": "references/04-aimbot/official-solution.pdf",
+      "status": "collected_not_tested",
+      "executed": false,
+      "answer_source": "official_author_solution",
+      "locally_validated": false
+    },
+    {
+      "id": "05-where-am-i",
+      "title": "Where_am_i",
+      "suggested_order": 5,
+      "difficulty": "高级",
+      "platform": "Windows 原生程序",
+      "topics": [
+        "自修改代码",
+        "反射加载",
+        "RC6"
+      ],
+      "archive": "challenges/05-where-am-i/where_am_i.7z",
+      "archive_password": "flare",
+      "source_member": "where_am_i.7z",
+      "solution": "references/05-where-am-i/official-solution.pdf",
+      "status": "collected_not_tested",
+      "executed": false,
+      "answer_source": "official_author_solution",
+      "locally_validated": false
+    },
+    {
+      "id": "12-hvm",
+      "title": "HVM",
+      "suggested_order": 6,
+      "difficulty": "挑战级",
+      "platform": "Windows x64 / Hyper-V",
+      "topics": [
+        "16/32/64 位切换",
+        "虚拟机退出",
+        "加密校验"
+      ],
+      "archive": "challenges/12-hvm/hvm.7z",
+      "archive_password": "flare",
+      "source_member": "hvm.7z",
+      "solution": "references/12-hvm/official-solution.pdf",
+      "status": "collected_not_tested",
+      "executed": false,
+      "answer_source": "official_author_solution",
+      "locally_validated": false
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "id": "01-x",
+    "flag": "glorified_captcha@flare-on.com",
+    "source": "references/01-x/official-solution.pdf",
+    "source_page": 3,
+    "provenance": "official_author_solution",
+    "locally_validated": false,
+    "unlock_code": "42"
+  },
+  {
+    "id": "02-itsonfire",
+    "flag": "YOUr3_ON_F1r3_K33P_6O1N6@flare-on.com",
+    "source": "references/02-itsonfire/official-solution.pdf",
+    "source_page": 25,
+    "provenance": "official_author_solution",
+    "locally_validated": false
+  },
+  {
+    "id": "03-mypassion",
+    "flag": "b0rn_t0_5truc7_b4by@flare-on.com",
+    "source": "references/03-mypassion/official-solution.pdf",
+    "source_page": 9,
+    "provenance": "official_author_solution",
+    "locally_validated": false
+  },
+  {
+    "id": "04-aimbot",
+    "flag": "computer_ass1sted_ctfing@flare-on.com",
+    "source": "references/04-aimbot/official-solution.pdf",
+    "source_page": 4,
+    "provenance": "official_author_solution",
+    "locally_validated": false
+  },
+  {
+    "id": "05-where-am-i",
+    "flag": "WheR3_4m_I_fr0m_0TF@flare-on.com",
+    "source": "references/05-where-am-i/official-solution.pdf",
+    "source_page": 19,
+    "provenance": "official_author_solution",
+    "locally_validated": false
+  },
+  {
+    "id": "12-hvm",
+    "flag": "c4n_i_sh1p_a_vm_as_an_exe_ask1ng_4_a_frnd@flare-on.com",
+    "source": "references/12-hvm/official-solution.pdf",
+    "source_page": 9,
+    "provenance": "official_author_solution",
+    "locally_validated": false,
+    "name": "FLARE2023FLARE2023FLARE2023FLARE2023",
+    "serial": "zBYpTBUWJvf9MUH4KtcYv7sdUVUPcjOCiU5G5i63bb+LLBZsAmEk9YlNMplv5SiN"
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "mode": "metadata-only",
+  "host": "127.0.0.1",
+  "port": 8787,
+  "adapters": {
+    "ghidra_mcp": {
+      "enabled": false,
+      "worker": "",
+      "endpoint": "",
+      "allowlist": ["read_function", "read_decompiler", "read_xrefs"],
+      "isolation": {"network": "disabled", "host_mounts": []}
+    },
+    "frida": {
+      "enabled": false,
+      "worker": "",
+      "allowlist": ["trace"],
+      "isolation": {"network": "disabled", "host_mounts": [], "persistent": false},
+      "host_mounts": []
+    },
+    "llm": {
+      "enabled": false,
+      "provider": "",
+      "allowlist": ["summarize_evidence"],
+      "isolation": {"network": "disabled", "write_tools": false},
+      "store_prompts_and_responses": true
+    }
+  },
+  "write_policy": {
+    "default": "proposal_only",
+    "requires_second_confirmation": ["rename", "comment", "patch", "script", "attach_process", "execute"]
+  }
+}
